@@ -26,5 +26,5 @@
 （你可以根据实际目录调整）
 
 ## 学习打卡
-学习笔记在
+学习笔记在:https://github.com/Linyuhao911/vue-project/tree/main/notes/Markdown
 - 2026-01-08
