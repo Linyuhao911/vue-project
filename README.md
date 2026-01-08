@@ -1,48 +1,30 @@
-# vue-project
+# learning-vue3-step-by-step
 
-This template should help get you started developing with Vue 3 in Vite.
+[![Vue.js](https://img.shields.io/badge/Vue.js-3.x-green?logo=vue.js)](https://vuejs.org/)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-## Recommended IDE Setup
+这是一个记录我学习 Vue.js 前端框架的过程的仓库。从基础入门到进阶实践，一步步记录笔记、代码示例和小项目。
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+这个仓库适合 Vue 初学者参考，也欢迎大家 fork 和提 issue 交流！
 
-## Recommended Browser Setup
+## 为什么创建这个仓库？
+- 系统化记录 Vue 学习路径，避免知识碎片化。
+- 通过实际代码练习加深理解。
+- 分享学习心得，帮助他人。
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+## 学习进度
 
-## Type Support for `.vue` Imports in TS
+仓库结构按学习阶段组织：
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+- **01-basics/**：Vue 基础（实例、模板语法、指令、计算属性等）
+- **02-components/**：组件化开发（props、events、slots）
+- **03-vue-router/**：路由管理
+- **04-pinia/**：状态管理（推荐使用 Pinia 替代 Vuex）
+- **05-projects/**：小型实践项目（如 Todo List、天气App等）
+- **notes/**：学习笔记（Markdown 文件）
 
-## Customize configuration
+（你可以根据实际目录调整）
 
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+## 学习打卡
+学习笔记在
+- 2026-01-08
