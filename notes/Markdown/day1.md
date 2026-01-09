@@ -19,7 +19,7 @@
   ```vue
   <input v-model="message" placeholder="输入内容" />
   <p>你输入了：{{ message }}</p>
-  
+  ```
 ### 3. 事件绑定
 - `v-on`（缩写 @）
   绑定 DOM 事件。
@@ -49,7 +49,7 @@
       <option value="maintain">运维</option>
     </select>
   </p>
-
+  ```
 ### 5. 条件渲染
 - `v-if`
 
