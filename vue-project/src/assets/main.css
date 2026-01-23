@@ -1,0 +1,39 @@
+@import './base.css';
+
+/* 全局样式重置 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+#app {
+  min-height: 100vh;
+  font-weight: normal;
+  /* 移除原有的限制性样式 */
+}
+
+/* 移除原有的链接样式，让组件自己控制 */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* 响应式设计调整 */
+@media (min-width: 1024px) {
+  body {
+    /* 移除原有的flex布局限制 */
+    display: block;
+  }
+
+  #app {
+    /* 移除原有的grid布局限制 */
+    display: block;
+    padding: 0;
+  }
+}
